@@ -21,7 +21,7 @@ var schema = Schema({
         type: String,
         required: true,
         validator: types.string({
-            length: 10000
+            length: 200000
         })
     }
 }, {collection: 'pages'});
